@@ -11,7 +11,7 @@ export function ResumePreview() {
     const fileId = "YOUR_GOOGLE_DRIVE_FILE_ID"
 
     // Create the direct download link
-    const downloadUrl = `https://drive.google.com/file/d/1ZyYMfA9_KE76Krq7DDr1dPiSj6KjKFrL/view?usp=drive_link`
+    const downloadUrl = `https://drive.google.com/file/d/1NyNkDXY-4bcPQma_ZsoilrpIoHH_JYxt/view?usp=sharing`
 
     // Open the download URL in a new tab
     window.open(downloadUrl, "_blank")
