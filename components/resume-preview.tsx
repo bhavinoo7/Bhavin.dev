@@ -11,7 +11,7 @@ export function ResumePreview() {
     const fileId = "YOUR_GOOGLE_DRIVE_FILE_ID"
 
     // Create the direct download link
-    const downloadUrl = `https://drive.google.com/file/d/111OkgipatNc60guEhZ9T4zgKaEGg7aQU/view?usp=sharing`
+    const downloadUrl = `https://drive.google.com/file/d/1ZyYMfA9_KE76Krq7DDr1dPiSj6KjKFrL/view?usp=drive_link`
 
     // Open the download URL in a new tab
     window.open(downloadUrl, "_blank")
@@ -25,7 +25,7 @@ export function ResumePreview() {
             <div className="relative mb-4 w-full overflow-hidden rounded-md border border-border bg-white shadow-sm dark:bg-gray-900">
               {/* Resume preview image */}
               <img
-                src="https://res.cloudinary.com/durtlcmnb/image/upload/v1743049894/Screenshot_2025-03-27_100116_g4qnvz.png"
+                src="https://res.cloudinary.com/durtlcmnb/image/upload/v1743394610/Screenshot_2025-03-31_094449_a5vkdc.png"
                 alt="Resume Preview"
                 className="h-auto w-full object-cover"
               />
