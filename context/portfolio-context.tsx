@@ -70,15 +70,15 @@ const defaultPortfolioData: PortfolioData = {
     email: "sorathiyabhavin234@gmail.com",
     phone: "+91 6354578240",
     location: "Gandhinagar, Gujrat-382016, India",
-    bio: "Hi, I'm Bhavin Sorathiya – a Full-Stack Web Developer specializing in .NET (C#), Java (Spring Boot), Next.js, React, and Python (FastAPI). I build scalable, high-performance web applications, combining robust backend architectures with dynamic frontend experiences.",
+    bio: "Hi, I'm Bhavin Sorathiya – a Full-Stack Web Developer specializing in  Java (Spring Boot), Next.js, React.js, and Python (FastAPI). I build scalable, high-performance web applications, combining robust backend architectures with dynamic frontend experiences.",
     avatar: "/placeholder.svg?height=400&width=400",
     resumeUrl: "/resume.pdf",
   },
   about: {
     title: "About Me",
     description: [
-      " Hi, I'm a passionate Full-Stack Web Developer specializing in .NET (C#), Java (Spring Boot), Next.js, React, and Python (FastAPI). I have experience in frontend and backend development, focusing on building scalable, high-performance applications for web and enterprise solutions.",
-      "I love working on end-to-end development, from designing dynamic frontend experiences with React and Next.js to building robust backend architectures with .NET and Java. With expertise in cloud deployment, microservices, and API development, I strive to create efficient, user-friendly applications.",
+      " Hi, I'm a passionate Full-Stack Web Developer specializing in Java (Spring Boot), Next.js, React, and Python (FastAPI). I have experience in frontend and backend development, focusing on building scalable, high-performance applications for web and enterprise solutions.",
+      "I love working on end-to-end development, from designing dynamic frontend experiences with React and Next.js to building robust backend architectures with Java. With expertise in cloud deployment, microservices, and API development, I strive to create efficient, user-friendly applications.",
     ],
     imageUrl:
       "https://res.cloudinary.com/durtlcmnb/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,bo_5px_solid_red,b_rgb:262c35/v1739958267/Healthcare_user_profile/tsaklxh888jk2wrovwjz.jpg",
@@ -138,7 +138,6 @@ const defaultPortfolioData: PortfolioData = {
         "Node.js",
         "Express",
         "Redux",
-        "C# (.NET Core, ASP.NET)",
         "Java (Spring Boot)",
         "MongoDB",
         "MySql",
@@ -146,7 +145,7 @@ const defaultPortfolioData: PortfolioData = {
     },
     {
       category: "Tools & Others",
-      items: ["Git", "GitHub", "VS Code", "Figma", "Docker", "Vercel"],
+      items: ["Git", "GitHub", "VS Code", "Figma", "Vercel"],
     },
     {
       category: "Authentication & Security",
