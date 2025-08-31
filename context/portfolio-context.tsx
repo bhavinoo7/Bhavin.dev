@@ -208,7 +208,7 @@ const defaultPortfolioData: PortfolioData = {
       imageUrl:
         "https://res.cloudinary.com/durtlcmnb/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1742994166/Healthcare_user_profile/DALL_E_2025-03-26_18.32.27_-_A_modern_and_sleek_logo_for_Class-Connect_._The_design_should_feature_a_combination_of_an_open_book_and_a_digital_network_such_as_connected_nodes_or_o5hp3m.webp",
       githubUrl: "https://github.com/bhavinoo7/ClassConnect",
-      demoUrl: "https://classroom-management-two.vercel.app/",
+      demoUrl: "https://begin-sigma.vercel.app/",
     },
     {
       id: "project-4",
