@@ -88,8 +88,9 @@ function Portfolio() {
                   <li key={index} className="flex flex-col">
                     <span className="font-medium">{edu.degree}</span>
                     <span className="text-sm text-foreground/70">
-                      {edu.institution} | {edu.period}
+                      {edu.institution} | {edu.period} 
                     </span>
+                    {edu.grade && <span className="text-sm text-foreground/70">Grade: {edu.grade}</span>}
                   </li>
                 ))}
               </ul>

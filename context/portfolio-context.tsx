@@ -31,6 +31,7 @@ export type Education = {
   institution: string;
   location: string;
   period: string;
+  grade?: string;
 };
 
 export type Social = {
@@ -85,6 +86,28 @@ const defaultPortfolioData: PortfolioData = {
   },
   experience: [
     {
+      title: "TatvaSoft",
+      company: "Summer Internship(.NET Core, Angular, PostgreSQL)",
+      location: "work-from-online",
+      period: "May 2025 - Jun 2025",
+      description: [
+        "Chegg India provides expert Computer Science tutoring to help students master programming, algorithms, data structures, databases, and more. Tutors offer step-by-step solutions, code explanations, and personalized guidance for assignments and exam preparation.",
+        "The platform covers various programming languages like Python, Java, C++, and SQL, along with core CS subjects. ",
+        "With 24/7 support and detailed solutions, students can learn efficiently and improve their problem-solving skills. Chegg India makes Computer Science learning easy, accessible, and effective!",
+      ],
+    },
+    {
+      title: "iTechBrain",
+      company: "MERN Stack Developer Internship",
+      location: "work-from-online",
+      period: "",
+      description: [
+        "Chegg India provides expert Computer Science tutoring to help students master programming, algorithms, data structures, databases, and more. Tutors offer step-by-step solutions, code explanations, and personalized guidance for assignments and exam preparation.",
+        "The platform covers various programming languages like Python, Java, C++, and SQL, along with core CS subjects. ",
+        "With 24/7 support and detailed solutions, students can learn efficiently and improve their problem-solving skills. Chegg India makes Computer Science learning easy, accessible, and effective!",
+      ],
+    },
+    {
       title: "Tutor(Computer Science)",
       company: "Chegg India",
       location: "work-from-online",
@@ -103,25 +126,28 @@ const defaultPortfolioData: PortfolioData = {
       institution: "Leelaben Dashrathbhai Ramdas Patel Institute of Technology(LDRP-ITR)",
       location: "Gandinagar, Gujrat-382016, India",
       period: "2022 - 2026",
+      grade: "8.71 CPI (Till 7th Sem)",
     },
     {
       degree: "HSC Science",
       institution: "Delta Science School",
       location: "Jamnagar, Gujrat, India",
       period: "2020 - 2022",
+      grade: "94.91",
     },
     {
       degree: "SSC 10th",
       institution: "Shreeji School",
       location: "Jamnagar, Gujrat, India",
       period: "2019 - 2020",
+      grade:"96.40",
     },
   ],
   skills: [
     {
       category: "Frontend",
       items: [
-        "React",
+        "React.js",
         "Next.js",
         "TypeScript",
         "JavaScript",
@@ -140,6 +166,8 @@ const defaultPortfolioData: PortfolioData = {
         "Redux",
         "Java (Spring Boot)",
         "MongoDB",
+        "ASP.NET Core",
+        "FastAPI",
         "MySql",
       ],
     },
@@ -157,9 +185,9 @@ const defaultPortfolioData: PortfolioData = {
         "Java",
         "C++",
         "C",
+        "C#",
         "Python",
         "Data Structure and Algorithms(DSA)",
-        "PHP",
       ],
     },
     {
@@ -203,6 +231,9 @@ const defaultPortfolioData: PortfolioData = {
         "Nextauth.js",
         "FastAPI",
         "YOLOV8(face Detection)",
+        "FAISS",
+        "MongoDB",
+        "Insightface",
         "Resend",
       ],
       imageUrl:
@@ -225,8 +256,25 @@ const defaultPortfolioData: PortfolioData = {
       imageUrl: "https://res.cloudinary.com/durtlcmnb/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1743009415/DALL_E_2025-03-26_22.46.35_-_A_modern_and_secure_logo_for_AuthShield_an_authentication_system._The_logo_should_feature_a_shield_symbol_integrated_with_a_key_or_fingerprint_rep_eyja7m.webp",
       githubUrl: "https://github.com/bhavinoo7/Authentication",
     },
+   {
+  id: "project-5",
+  title: "NexEvents (Event Management System)",
+  description:
+    "A full-featured event management platform built with ASP.NET Core and Angular. Admins can create, update, and manage events easily through an intuitive dashboard. Users can browse upcoming events and enroll with a single click. The system automatically tracks enrollments, displaying real-time participant data on the admin dashboard. It ensures smooth interaction between frontend and backend with secure API communication and efficient PostgreSQL database management.",
+  tags: [
+    "ASP.NET Core",
+    "Angular",
+    "PostgreSQL",
+    "Entity Framework Core",
+    "REST API"
+  ],
+  imageUrl:
+    "https://res.cloudinary.com/durtlcmnb/image/upload/v1759229272/Event-management-logo-scaled_zwmkzk.jpg",
+  githubUrl: "https://github.com/bhavinoo7/NexEvent.git",
+}
+,
     {
-      id: "project-5",
+      id: "project-6",
       title: "Roomly (Find Best Hotel Room)",
       description:
         "Roomly lets users explore hotels, read and leave reviews, and manage listings effortlessly. Hotel owners can add, edit, or delete listings(Rooms) securely with authentication. An interactive map integration helps users locate hotels easily. Reviews provide insights for better decision-making. Simple, efficient, and user-friendly hotel management!  ",
@@ -245,7 +293,7 @@ const defaultPortfolioData: PortfolioData = {
       githubUrl: "https://github.com/bhavinoo7/Roomly.git",
     },
     {
-      id: "project-6",
+      id: "project-7",
       title: "BillBuddy (Track and share expenses fairly)",
       description:
         "SplitEase makes splitting bills and tracking shared expenses effortless. Easily add, split, and settle expenses with friends, roommates, or groups. The app ensures fair calculations and real-time tracking to avoid confusion. Say goodbye to messy spreadsheets and enjoy hassle-free expense management!",
